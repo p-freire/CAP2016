@@ -1,2 +1,2 @@
 # CAP2016
-Códigos diversos
+Códigos diversos relacionados à disciplina de CAP
