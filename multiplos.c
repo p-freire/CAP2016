@@ -18,9 +18,7 @@ int mmc(int a, int b)
 
 	while(a != 1 || b != 1)
 	{
-		if((a % contador == 0 && b % contador == 0)
-			|| (a % contador == 0)
-			|| (b % contador == 0))
+		if((a % contador == 0) || (b % contador == 0))
 		{
 			minimo *= contador;
 			a = a % contador == 0 ? a / contador : a; // atualiza o valor de A caso ele seja divisível pelo contador
