@@ -11,7 +11,7 @@ char numero[MAX_DIGITOS];
 
 int main()
 {
-    int n, i; // numero that is missing
+    int n, i; 
     int ehApenasZeros = 1;
 
     while(scanf("%d", &n) && n != 0)
