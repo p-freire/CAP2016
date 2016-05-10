@@ -73,7 +73,6 @@ int main(int argc, char **argv)
 	selection_sort(&v2[0], n2);
 	n2 = remove_repeticoes(&v2[0], n2);
 
-	//maior_vetor = MAIOR(n1, n2);
 	menor_vetor = MENOR(n1, n2);
 
 	i = 0;
