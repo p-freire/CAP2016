@@ -1,7 +1,7 @@
 /*
   Objetivo: dados dois vetores, V1 e V2, criar um terceiro vetor V3 
   tal que V3 é a interseção de V1 com V2.
-  Lembrando que não pode haver repetições na interseção.
+  Lembrando que não há repetições na interseção.
 */
 
 #include <stdio.h>
