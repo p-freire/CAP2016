@@ -4,22 +4,20 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <iostream>
 #include <string.h>
 #define MAX_DIGITOS 110
-using namespace std;
 
 char numero[MAX_DIGITOS];
 
 int main()
 {
-    int n; // numero that is missing
+    int n, i; // numero that is missing
     int ehApenasZeros = 1;
 
     while(scanf("%d", &n) && n != 0)
     {
        scanf("%s", numero);
-       for(int i = 0; numero[i] != '\0'; ++i)
+       for(i = 0; numero[i] != '\0'; ++i)
        {
           if((int)numero[i] - 48 != n)
           {
