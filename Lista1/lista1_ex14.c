@@ -19,15 +19,16 @@ void swap(int *a, int *b)
 
 void selection_sort(int *v, int n)
 {
-	int i, j, menor;
+	int i, j, pos_menor;
 
 	for(i = 0; i < n; ++i)
 	{
-		menor = v[i];
+		pos_menor = i;
 		for(j = i + 1; j < n; ++j)
-			if(v[j] < menor)
-				swap(&v[j], &menor);
-		v[i] = menor;
+			if(v[j] < v[pos_menor])
+				pos_menor = j
+		if(pos_menor != i)
+			swap(&v[i], &v[pos_menor]);
 	}
 }
 
