@@ -1,8 +1,8 @@
 /*
- Objetivo: verificar se um dado número é ou não é palíndromo.
+ Objetivo: verificar se um dado nÃºmero Ã© ou nÃ£o Ã© palÃ­ndromo.
 
- Para fazer essa verificação, basta calcular o reverso do número
- e verificar se o reverso é igual ao número em questão.
+ Para fazer essa verificaÃ§Ã£o, basta calcular o reverso do nÃºmero
+ e verificar se o reverso Ã© igual ao nÃºmero em questÃ£o.
 */
 
 #include <stdio.h>
@@ -32,7 +32,7 @@ int main(int argc, char **argv)
     soma  = 0;
     aux = n;
 
-    // verifica a maior base do número
+    // verifica a maior base do nÃºmero
     // Exemplos: 0 - 9, base = 0 (unidade)
     //           10 - 99, base = 1 (dezena)
     //           100 - 999, base = 2 (centena)
@@ -43,7 +43,7 @@ int main(int argc, char **argv)
     }
 
     aux = n;
-    // calcula o reverso do número
+    // calcula o reverso do nÃºmero
     for(i = 0; i <= tam; ++i)
     {
         mult = calcula_potencia(i);
@@ -57,7 +57,7 @@ int main(int argc, char **argv)
     else
         printf("O numero %d nao eh palindromo\n", n);
 
-    // se quiser economizar linhas de código, o comando abaixo é equivalente ao if-else anterior
+    // se quiser economizar linhas de cÃ³digo, o comando abaixo Ã© equivalente ao if-else anterior
     //printf(soma == n ? "O numero %d eh palindromo\n" : "O numero %d nao eh palindromo\n", n);
     return 0;
 }
