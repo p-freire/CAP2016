@@ -1,11 +1,11 @@
 /*
- Objetivo: dado um valor N, calcular e mostrar a sequência de Fibonacci até o N-ésimo elemento.
- A sequência de Fibonacci inicia-se com 1, 1 e o restante da sequência é calculada somando-se
- os dois elementos anteriores. Então, por exemplo, o sétimo elemento da sequência é 13:
+ Objetivo: dado um valor N, calcular e mostrar a sequÃªncia de Fibonacci atÃ© o N-Ã©simo elemento.
+ A sequÃªncia de Fibonacci inicia-se com 1, 1 e o restante da sequÃªncia Ã© calculada somando-se
+ os dois elementos anteriores. EntÃ£o, por exemplo, o sÃ©timo elemento da sequÃªncia Ã© 13:
  1, 1, 2, 3, 5, 8, 13
 
- Aqui há duas formas de calcular a sequência. Uma iterativa e outra recursiva. Note que
- não há distinção entre o resultado delas, mas há uma diferença gigantesca na complexidade
+ Aqui hÃ¡ duas formas de calcular a sequÃªncia. Uma iterativa e outra recursiva. Note que
+ nÃ£o hÃ¡ distinÃ§Ã£o entre o resultado delas, mas hÃ¡ uma diferenÃ§a gigantesca na complexidade
  de cada abordagem.
 */
 
@@ -18,7 +18,7 @@ int fib_recursivo(int num)
         return 1;
     else
         return fib_recursivo(num - 1) + fib_recursivo(num - 2);
-    // quer economizar linhas de código? A linha a seguir é equivalente a essas 4 anteriores :-)
+    // quer economizar linhas de cÃ³digo? A linha a seguir Ã© equivalente a essas 4 anteriores :-)
     //return(num <= 2 ? 1 : fib_recursivo(num - 1) + fib_recursivo(num - 2));
 }
 
