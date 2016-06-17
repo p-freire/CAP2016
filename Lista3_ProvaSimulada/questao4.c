@@ -1,5 +1,5 @@
 /*
-    Objetivo: ler uma lista de alunos, ordena-la por nota e por nome e
+    Objetivo: ler e ordenar uma lista de alunos, ordena-la por nota e por nome e
     salvar cada ordenacao em arquivo.
 */
 
@@ -58,8 +58,11 @@ int main()
     aluno *alunos;
     int n, i;
 
-    nomes = fopen("nomes_ordenados.txt", "w");
-    notas = fopen("notas_ordenadas.txt", "w");
+    if((nomes = fopen("nomes_ordenados.txt", "w")) == NULL)
+       return -1;
+    if((notas = fopen("notas_ordenadas.txt", "w")) == NULL)
+        return -1;
+
     printf("Entre com o numero de alunos: ");
     scanf("%d", &n);
 
