@@ -1,9 +1,9 @@
 /*
- Objetivo: dado um limite superior, calcular os n˙meros primos dentro do intervalo [1, limite]
+ Objetivo: dado um limite superior, calcular os n√∫meros primos dentro do intervalo [1, limite]
 
- Duas formas s„o apresentadas aqui. Uma delas usando forÁa bruta e outra usando o crivo de EratÛstenes.
+ Duas formas s√£o apresentadas aqui. Uma delas usando for√ßa bruta e outra usando o crivo de Erat√≥stenes.
  Experimente colocar um limite grande... 100000 por exemplo. Veja o que acontece.
- Pra ter uma ideia melhor da diferenÁa entre as abordagens, comente a impress„o dos resultados.
+ Pra ter uma ideia melhor da diferen√ßa entre as abordagens, comente a impress√£o dos resultados.
 */
 
 #include <stdio.h>
@@ -19,8 +19,8 @@ void primos_forca_bruta(int lim_max)
         num_divisores = 0;
         j = 1;
 
-        // para achar os divisores, eu preciso ir apenas atÈ a raiz do n˙mero.
-        // ExplicaÁ„o -> https://stackoverflow.com/questions/5811151/why-do-we-check-upto-the-square-root-of-a-prime-number-to-determine-if-it-is-pri
+        // para achar os divisores, eu preciso ir apenas at√© a raiz do n√∫mero.
+        // Explica√ß√£o -> https://stackoverflow.com/questions/5811151/why-do-we-check-upto-the-square-root-of-a-prime-number-to-determine-if-it-is-pri
         raiz = (int)sqrt(i);
         while(num_divisores <= 2 && j <= raiz)
         {
@@ -31,7 +31,7 @@ void primos_forca_bruta(int lim_max)
             ++j;
         }
 
-        // Se n„o quiser imprimir os primos encontrados, comente o trecho a seguir
+        // Se n√£o quiser imprimir os primos encontrados, comente o trecho a seguir
         if(num_divisores == 2)
             printf("[FORCA_BRUTA] O numero %d eh primo\n", i);
     }
@@ -76,7 +76,7 @@ int main(int argc, char **argv)
 
     printf("O crivo levou %.3f segundos para rodar\n", tempo_total);
 
-    // Se n„o quiser imprimir os primos encontrados, comente o trecho a seguir
+    // Se n√£o quiser imprimir os primos encontrados, comente o trecho a seguir
     for(i = 2; i < lim_superior + 1; ++i)
         if(primos[i])
             printf("[CRIVO] O numero %d eh primo\n", primos[i]);
