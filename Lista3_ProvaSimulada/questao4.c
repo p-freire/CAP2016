@@ -1,5 +1,5 @@
 /*
-    Objetivo: ler e ordenar uma lista de alunos, ordena-la por nota e por nome e
+    Objetivo: ler uma lista de alunos, ordena-la por nota e por nome e
     salvar cada ordenacao em arquivo.
 */
 
