@@ -1,3 +1,8 @@
+/*
+   Objetivo: calcular o n-esimo elemento da sequencia de Fibonacci E armazear os elementos da
+   sequencia ate N e exibi-los depois.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
