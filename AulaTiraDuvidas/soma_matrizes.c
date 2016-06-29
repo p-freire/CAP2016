@@ -1,3 +1,7 @@
+/*
+   Objetivo: fazer a soma de duas matrizes usando apenas ponteiros.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
