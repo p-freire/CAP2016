@@ -1,3 +1,8 @@
+/*
+   Objetivo: fazer uma funcao que calcula o tamanho 
+   de uma string passada como parametro.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #define TAM_MAX 512
