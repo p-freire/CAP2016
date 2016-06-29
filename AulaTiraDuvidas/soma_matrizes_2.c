@@ -1,3 +1,7 @@
+/*
+   Objetivo: fazer a soma de duas matrizes usando struct.
+*/
+
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
