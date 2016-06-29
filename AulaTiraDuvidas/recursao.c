@@ -1,3 +1,8 @@
+/*
+   Objetivo: calcular o fatorial de um numero de formas recursivas e iterativa.
+   
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
