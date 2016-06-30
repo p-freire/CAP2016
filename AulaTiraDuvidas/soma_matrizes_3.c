@@ -41,11 +41,11 @@ int main()
     printf("Insira o numero de linhas e colunas: ");
     scanf("%d %d", &linhas, &colunas);
 
-    v1 = (int*)malloc(linhas*colunas*sizeof(int));
-    v2 = (int*)malloc(linhas*colunas*sizeof(int));
-    m1 = (int**)malloc(linhas*sizeof(int*));
-    m2 = (int**)malloc(linhas*sizeof(int*));
-    m3 = (int**)malloc(linhas*sizeof(int*));
+    v1 = (int*)malloc(linhas * colunas * sizeof(int));
+    v2 = (int*)malloc(linhas * colunas * sizeof(int));
+    m1 = (int**)malloc(linhas * sizeof(int*));
+    m2 = (int**)malloc(linhas * sizeof(int*));
+    m3 = (int**)malloc(linhas * sizeof(int*));
 
     for(i = 0; i < linhas; i++)
     {
