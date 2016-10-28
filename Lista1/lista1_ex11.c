@@ -17,7 +17,7 @@ void swap(int *a, int *b)
 
 int main(int argc, char **argv)
 {
-    int vetor[MAX], n, i, j, menor, menor_pos, num_trocas;
+    int vetor[MAX], n, i, j, menor_pos, num_trocas;
     num_trocas = 0;
 
     printf("Entre com a quantidade de elementos (< 50): ");
@@ -31,12 +31,10 @@ int main(int argc, char **argv)
 
     for(i = 0; i < n; ++i)
     {
-        menor = vetor[i];
         menor_pos = i;
         for(j = i + 1; j < n; ++j)
             if(vetor[j] < menor)
             {
-                menor = vetor[j];
                 menor_pos = j;
             }
 
